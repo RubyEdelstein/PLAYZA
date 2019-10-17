@@ -30,7 +30,7 @@ window.onload = function () {
 
 $(document).ready(function () {
 
-    $('.navbar').load('../PLAYZA/pages/navbar.html');
+    $('.navbar').load('../pages/navbar.html');
     // $('.main__loaded__content').load('../pages/home.html');
     $('.footer').load('../pages/footer.html')
 

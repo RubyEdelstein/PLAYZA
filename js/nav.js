@@ -24,8 +24,8 @@
     }
 
     let nav_nuttons = [
-        { name: 'Home', link: '/PLAYZA', img: '../../images/nav-icons/1.svg' },
-        { name: 'Games', link: '..//PLAYZA/pages/games.html', img: '../../images/nav-icons/2.svg' },
+        { name: 'Home', link: '/', img: '../../images/nav-icons/1.svg' },
+        { name: 'Games', link: '../pages/games.html', img: '../../images/nav-icons/2.svg' },
         { name: 'WhitePaper', link: '../pages/whitepaper.html',  img: '../../images/nav-icons/3.svg' },
         { name: 'FAQ', link: '../pages/faq.html',  img: '../../images/nav-icons/4.svg' },
         { name: 'Tutorials', link: '../pages/tutorials.html',  img: '../../images/nav-icons/5.svg' },
