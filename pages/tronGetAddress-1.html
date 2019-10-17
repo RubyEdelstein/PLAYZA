@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getsUserAddressFromTronlink</title>
+
+
+    <script>
+        window.onload = function() {
+            if (!window.tronWeb) {
+                window.tronWeb = tronWeb;
+
+            }
+        };
+    </script>
+
+
+</head>
+<body>
+
+<h1>get User Address:</h1>
+
+<strong id="adressText" />
+<button onclick="
+    var address = window.tronWeb.defaultAddress.base58;
+    document.write(address)" > Press me!
+</button>
+
+
+
+
+</body>
+</html>

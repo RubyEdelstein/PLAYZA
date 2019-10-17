@@ -1,0 +1,122 @@
+.about__container{
+    background: #232323;
+    overflow: auto!important;
+}
+.about__container > header{
+    height: 413px;
+    position: relative;
+    background: url('../../images/PNG/9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:30px;
+   box-shadow: 0 8px 54px 0 rgba(255, 255, 255, 0.8)
+}
+
+.about__container > header::before {
+    background: linear-gradient(268deg, #32c5ff, #b620e0 51%, #f7b500);
+    content: '';
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+}
+.about__container > header::after {
+    background: linear-gradient(268deg, #32c5ff, #b620e0 51%, #f7b500);
+    content: '';
+    height: 6px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.about__text__box {
+    margin-bottom: 50px;
+}
+.about__text__box   h2{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'semi_bold';
+}
+.about__text__box  p{
+    opacity: 0.8;
+    line-height: 1.55;
+    letter-spacing: 0.21px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about__text__box  p:last-child{
+    margin: 0px;
+}
+.about__content{
+    width: 1150px;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.about__content__flex{
+    width: 860px;
+    position: relative;
+}
+.about__content aside{
+    width: 268px;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+   top: 0px;
+  
+    height:300px;
+
+}
+
+    .about__content aside img{
+    width:100%;
+    object-fit: contain;
+    height: 202px;
+}
+.about__content aside button{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: 0 0 25px 0 #f7e520;
+    background-color: #f7e520;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.about__content aside button h3{
+    color: black;
+}
+.about__content aside button a, .about__content aside button h5 {
+   font-size: 16px;
+}
+
+.sticky__div{
+    position: fixed!important;
+    top: 0px;
+    right: 30px;
+}
+
+@media screen and (max-width: 1550px){  
+    .about__content{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .about__text__box h2{
+        font-size: 35px;
+    }
+    .about__text__box p{
+        font-size: 16px;
+        line-height: 1.50;
+    }
+    .about__content__flex{
+        width: calc(100% - 310px);
+    }
+    .about__content aside{
+        width: 260px;
+    }
+   }
