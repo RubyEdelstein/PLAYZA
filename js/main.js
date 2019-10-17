@@ -30,8 +30,8 @@ window.onload = function () {
 
 $(document).ready(function () {
 
-    $('.navbar').load('../pages/navbar.html');
-    $('.main__loaded__content').load('../pages/home.html');
+    $('.navbar').load('../PLAYZA/pages/navbar.html');
+    // $('.main__loaded__content').load('../pages/home.html');
     $('.footer').load('../pages/footer.html')
 
     $('.alert__box .overlay').click(function () {
