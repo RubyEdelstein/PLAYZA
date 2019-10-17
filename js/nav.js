@@ -3,7 +3,7 @@
 
 
 
-$(document).ready(function () {
+ $(document).ready( async function () {
     let selected_link = ''
     const url = window.location.pathname.split('/')[2]
     console.log(url)
@@ -35,7 +35,8 @@ $(document).ready(function () {
         { name: 'About Us', link: '../pages/about.html',  img: '../../images/nav-icons/6.svg' },
 
     ]
-    const buttons_ul = document.querySelector('.navigation__container')
+    const buttons_ul =await  document.querySelector('.navigation__container')
+ if(buttons_ul){
     nav_nuttons.map((m, i) => {
 
         let li =  `<li class='${selected_link == m.name ? 'navigation__link navigation__link__active' : 'navigation__link'}'>
@@ -55,6 +56,7 @@ $(document).ready(function () {
     })
 
     $('nav').css('opacity', '1')
+ }
 
 });
 
