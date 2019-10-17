@@ -286,6 +286,7 @@ text-decoration: none;
     align-items: center;
     position: relative;
     font-family: 'semi_bold';
+    justify-content: center;
 
 }
 .game__play a h3, .game__play span h3, .game__iframe__link  h3, .open__game__iframe h3{

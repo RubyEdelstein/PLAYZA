@@ -1,35 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="./pages/css/nav.css">
+    <link rel="stylesheet" href="./pages/css/home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/nav.js"></script>
    
-    <link rel="stylesheet" href="/style/main.css" >
-    <link rel="stylesheet" href="/pages/css/nav.css" >
-   
-<script src="./js/index.js"></script>
+    <script src="./text/text.js"></script>
+
 </head>
-<body>
+
+<body class="home__body">
     <nav class="navbar"></nav>
-    <div id="main"></div>
+    <div class="home__container main__container">
+            <section class="tutorials__iframe__container">
+                    <div class="overlay"> </div>
+                <div class="iframe__box">
+        
+                </div>
+                </section>
+        <section class="alert__box">
+                <div class="alert__content">
+                  <span>
+                        Please login to your TRONLink wallet. If you do not have TRONLink wallet installed please visit <a target='_blank' href='http://u6.gg/gmc5D'>Click here</a> and download the chrome extension. (We recommends using Chrome Browser)
+                  </span>
+                </div>
+            <div class="overlay"></div>
+        </section>
+        <header>
+            <div class="home__header__img">
+                <h1 class="h1__text">Welcome to Playza</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et.</h3>
+                <button class="games__link">
+                    <!-- <a href="http://" target="_blank" rel="noopener noreferrer">PLAY NOW</a> -->
+                </button>
+                <aside>
+                    <figure></figure>
+                    <figure></figure>
+                    <figure class="home__active__figure"></figure>
+                </aside>
+            </div>
+            <button class="play__button">
+                    <a href="https://chrome.google.com/webstore/detail/tronlink%EF%BC%88%E6%B3%A2%E5%AE%9D%E9%92%B1%E5%8C%85%EF%BC%89/ibnejdfjmmkpcnlpebklmnkoeoihofec" target="_blank" rel="noopener noreferrer">
+                   
+                    <img src="../images/SVG/Token.svg" alt="">
+                    <p>TronLink</p>
+                    </a>
+                    
+                </button>
+        </header>
+        <section class="home__game__container">
+            <div>
+                <h2>Game Name</h2>
+                <h3>online slots</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+                <span>
+                    <button class="games__link game__play">
+                        
+                    </button>
+                    <button class="game__demo">
+                        <a href="http://" target="_blank" rel="noopener noreferrer">PLAY DEMO</a>
+                    </button>
+                </span>
+            </div>
+        </section>
+        <section class="home__game__container bottom__game__container">
+            <aside> </aside>
+            <div>
+                <h2>Game Name</h2>
+                <h3>online slots</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+                <span>
+                        <button class="games__link game__play">
+                               
+                            </button>
+                    <button class="game__demo">
+                        <a href="http://" target="_blank" rel="noopener noreferrer">PLAY DEMO</a>
+                    </button>
+                </span>
+            </div>
+        </section>
+       <section class="home__comming__soon__container">
+           <h1>COMING SOON</h1>
+            <ul class="home__comming__soon"></ul>
+       </section>
+    </div>
+    <div class="footer"></div>
 </body>
-<!-- <script>
-    $(document).ready(function(){
-        var app = Sammy('#main', function(){
-            this.get('#/games', function(context){
-               console.log('lalala')
-            })
-            this.get('#/home', function(context){
-               console.log('lalala2')
-            })
-            // this.get('#/products/:id', function(context){
-            //     alert(context.params.id)
-            // })
-        })
-        app.run('#/')
-    })
-</script> -->
+
+
 </html>

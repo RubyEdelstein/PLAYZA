@@ -7,7 +7,7 @@ $(document).ready(function () {
     let selected_link = ''
     const url = window.location.pathname.split('/')[2]
     console.log(url)
-    if (url === 'home.html') {
+    if (url == undefined) {
         selected_link = 'Home'
     }
     if (url === 'games.html') {
@@ -27,7 +27,7 @@ $(document).ready(function () {
     }
 
     let nav_nuttons = [
-        { name: 'Home', link: '../pages/home.html', img: '../../images/nav-icons/1.svg' },
+        { name: 'Home', link: '/', img: '../../images/nav-icons/1.svg' },
         { name: 'Games', link: '../pages/games.html', img: '../../images/nav-icons/2.svg' },
         { name: 'WhitePaper', link: '../pages/whitepaper.html',  img: '../../images/nav-icons/3.svg' },
         { name: 'FAQ', link: '../pages/faq.html',  img: '../../images/nav-icons/4.svg' },
